@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palindromic</title>
+</head>
+<body id="indexPage" ng-app="PalindromicNumber" ng-controller="FindPalindromicNumber">
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">LPNF</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="findPalindromicNumber.html">Find Palindromic</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div id="inputForm">
+    <h2>{{title}}</h2>
+
+        <input type="text" class="form-control" id="lowerbound" ng-model="lowerbound" placeholder="Enter lower bound">
+        <br>
+        <input type="text" class="form-control" id="upperbound" ng-model="upperbound" placeholder="Enter upper bound">
+    <br><br>
+    <button ng-click="findPalindrom()" id="findPalindromButton" type="button" class="btn btn-primary btn-lg">Search</button>
+    <br><br>
+    <input type="text" class="form-control" id="resultArea" ng-model="result" placeholder="Result">
+
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="customstyle.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="app.js"></script>
+<script src="scripts/FindPalindromicNumber.js"></script>
+
+</html>
