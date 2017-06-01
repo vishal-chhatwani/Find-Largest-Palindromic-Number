@@ -6,7 +6,7 @@ angular
     .module('PalindromicNumber')
     .controller('FindPalindromicNumber',function ($scope) {
 
-        $scope.title= 'Palindromic Number Finder';
+        $scope.title= 'Largest Palindromic Number Finder';
         $scope.findPalindrom = function(){
 
             var startIndex=$scope.lowerbound;
