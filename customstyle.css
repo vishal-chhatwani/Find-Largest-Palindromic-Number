@@ -1,0 +1,57 @@
+#indexPage{
+    background-image: url("img/bg2.jpg");
+}
+
+p{
+    font-size: 25px;
+    font-family: "Adobe Hebrew";
+    font-weight: bolder;
+    text-align: justify;
+}
+
+#PalindromicFinderPageButton{
+    font-weight: bold;
+}
+
+#container{
+
+    margin-left: 90px;
+    margin-top: 150px;
+    width: 580px;
+
+}
+
+#inputForm{
+    margin-left: 90px;
+    margin-top: 150px;
+    width: 500px;
+}
+
+#lowerbound{
+    width: 250px;
+    font-size: 20px;
+}
+
+#upperbound{
+    width: 250px;
+    font-size: 20px;
+}
+
+#inputForm{
+
+    margin-left: 100px;
+}
+
+#resultArea{
+    width: 250px;
+    font-size: 25px;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+#findPalindromButton{
+
+    font-weight: bold;
+}
