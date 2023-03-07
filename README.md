@@ -2,7 +2,9 @@
 
 This application is for finding the largest palindromic number between two numbers provided by user. A palindromic number is a number that remains the same when its digits are reversed. Like 16461, for example, it is "symmetrical". 
 
-## Instructions
+Check it out [here](https://vishal-chhatwani.github.io/Find-Largest-Palindromic-Number/). 
+
+## Instructions for running locally.
 
 Clone the repo or download a project in a zip file. Extract it and place it in localhost directory.
 
